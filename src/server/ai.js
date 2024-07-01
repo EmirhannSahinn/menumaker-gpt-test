@@ -1,7 +1,8 @@
 import 'openai/shims/node';
 import OpenAI from 'openai';
 
-const CHATGPT_MODEL = process.env.CHATGPT_MODEL || 'gpt-3.5-turbo-1106';
+//const CHATGPT_MODEL = process.env.CHATGPT_MODEL || 'gpt-3.5-turbo-1106';
+const CHATGPT_MODEL = `gpt-4`
 const PROMPT =
   'I am writing descriptions of dishes for a menu. I am going to provide you with a list of ingredients. Based on that list, please come up with a dish that can be created with those ingredients.';
 
